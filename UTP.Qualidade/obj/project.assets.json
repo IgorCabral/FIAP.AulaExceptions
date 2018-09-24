@@ -1,0 +1,81 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "APP.Projeto02/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/APP.Projeto02.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/APP.Projeto02.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "APP.Projeto02/1.0.0": {
+      "type": "project",
+      "path": "../APP.Projeto02/APP.Projeto02.csproj",
+      "msbuildProject": "../APP.Projeto02/APP.Projeto02.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v2.1": [
+      "APP.Projeto02 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\logonrmlocal\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\logonrmlocal\\Documents\\APP.AulaExceptions\\UTP.Qualidade\\UTP.Qualidade.csproj",
+      "projectName": "UTP.Qualidade",
+      "projectPath": "C:\\Users\\logonrmlocal\\Documents\\APP.AulaExceptions\\UTP.Qualidade\\UTP.Qualidade.csproj",
+      "packagesPath": "C:\\Users\\logonrmlocal\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\logonrmlocal\\Documents\\APP.AulaExceptions\\UTP.Qualidade\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\logonrmlocal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp2.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "projectReferences": {
+            "C:\\Users\\logonrmlocal\\Documents\\APP.AulaExceptions\\APP.Projeto02\\APP.Projeto02.csproj": {
+              "projectPath": "C:\\Users\\logonrmlocal\\Documents\\APP.AulaExceptions\\APP.Projeto02\\APP.Projeto02.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp2.1": {
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  }
+}
